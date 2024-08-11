@@ -25,7 +25,7 @@ class TaskFactory extends Factory
             'image_path' => fake()->imageUrl(),
             'created_by' => 1,
             'updated_by' => 1,
-            'assigned_user_id'=> 2
+            'assigned_user_id'=> 2,
         ];
     }
 }
